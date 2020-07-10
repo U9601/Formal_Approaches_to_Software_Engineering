@@ -1,0 +1,219 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U trains%b		trains.adb		f2d2c64d NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U trains%s		trains.ads		8ef979d8 EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-calend.ads		20190518041256 474d9720 ada.calendar%s
+D a-caldel.ads		20190518041256 9f20b83d ada.calendar.delays%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20190518041258 0240fc73 ada.real_time%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-c.ads		20190518041256 5421119b interfaces.c%s
+D i-cstrin.ads		20190518041256 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D system.ads		20190518041258 32a08138 system%s
+D s-atacco.ads		20190518041258 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20190518041256 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20190518041258 0b705ca5 system.concat_3%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-imenne.ads		20190518041256 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20190518041256 02dbe0c2 system.img_int%s
+D s-multip.ads		20190518041256 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20190518041258 97504df8 system.os_interface%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stausa.ads		20190518041256 017a0a05 system.stack_usage%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20190518041258 601f6b72 system.task_info%s
+D s-taspri.ads		20190518041258 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20190518041258 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20190518041258 b9d612e2 system.tasking%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D s-win32.ads		20190518041256 90ecf4e6 system.win32%s
+D trains.ads		20200507161530 224d50c6 trains%s
+D trains.adb		20200508111524 7c2bbf95 trains%b
+G a e
+G c Z s s [reactorsIP trains 17 9 none]
+G c Z s s [trainsIP trains 26 10 none]
+G c Z s b [addcontrolrod trains 56 14 none]
+G c Z s b [removingcontrolrod trains 61 14 none]
+G c Z s b [addcarriage trains 66 14 none]
+G c Z s b [removingcarriage trains 71 14 none]
+G c Z s b [increasecoolant trains 76 14 none]
+G c Z s b [decreasecoolant trains 81 14 none]
+G c Z s b [increasetemp trains 86 14 none]
+G c Z s b [warninglight trains 92 14 none]
+G c Z s b [emergencystop trains 98 14 none]
+G c Z s b [manualshutdown trains 105 14 none]
+G c Z s b [startupthereactor trains 112 14 none]
+G c Z s b [trainstart trains 118 14 none]
+G c Z s b [calculatepower trains 123 14 none]
+G c Z s b [calculatespeed trains 130 14 none]
+G c Z s b [calculatetemperature trains 137 14 none]
+G c Z s b [displayall trains 143 14 none]
+G c Z s b [restart trains 148 14 none]
+G c Z s b [maintenance trains 152 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 41|1r6 1r23 2r6 2r25 57r35 62r35 67r35 72r35 77r35 82r35 87r35
+. 144r28 146r27 42|1r6 1r23 2r6 2r25 189r7
+X 6 a-reatim.ads
+39K13*Real_Time 185e18 41|2w10 2r29 146r31 42|2w10 2r29
+41@22*Clock_Time 41|146r41
+X 9 a-textio.ads
+57K13*Text_IO 727e16 41|1w10 1r27 57r39 62r39 67r39 72r39 77r39 82r39 87r39
+. 144r32 42|1w10 1r27 189r11
+58@25*File_System 41|57r47 62r47 67r47 72r47 77r47 82r47 87r47 144r40
+465U14*Put 42|189s19
+508U14*Put_Line 42|12s7 20s7 29s7 37s7 45s7 54s7 62s7 190s7 191s7 192s7 193s7
+. 194s7 195s7 196s7 197s7 198s7 199s7 200s7 201s7 202s7 203s7 205s12 209s15
+. 213s18 220s12 225s12 229s15 235s12 237s13 241s18 246s7
+X 30 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 41 trains.ads
+4K9*Trains 159l5 159e11 42|4b14 251l5 251t11
+7I9*Temp<short_short_integer> 19r21 34r42 88r47 88r96 100r89 139r47 139r96
+. 141r49 141r99 42|165r47 167r50
+8I9*ControlRods<short_short_integer> 20r23 58r49 58r107 63r49 63r107
+9I9*WaterSupply<short_short_integer> 21r23 78r49 78r107 83r49 83r107
+10I9*PowerSupply<short_short_integer> 23r23 38r44 125r49 125r107 127r51 128r51
+. 42|136r44
+11I9*Carriages<short_short_integer> 27r21 42r37 68r33 68r73 73r33 73r73
+12I9*Velocity<short_short_integer> 28r22 43r39 133r34 133r74 135r36 135r77
+. 42|146r32 150r40 152r40
+13E9*ReactorState 13e34 22r29
+13n26*on{13E9} 94r55 116r56 120r55 126r59 134r59 140r59 42|114r55 121r80
+. 147r57
+13n30*off{13E9} 37r50 108r56 114r55 155r55 42|81r55 94r55 113r53 144r53 180r52
+14E9*Lights 14e38 18r20
+14n20*GREEN{14E9} 33r42 95r47 101r87 109r47 42|83r44 96r44
+14n27*AMBER{14E9} 95r89 42|70r46
+14n34*RED{14E9} 96r39 42|73r49
+17R9*Reactors 24e14 29r23 33r15
+18e7*lightState{14E9} 33m28 95r34 95r76 96r26 101r74 109r34 42|70m32 73m35
+. 83m30 96m30 198r52
+19i7*currentTemp{7I9} 34m27 88r33 88r82 89r30 90r34 90r68 100r33 100r75 101r34
+. 108r84 139r33 139r82 141r34 141r84 42|59r31 60m32 60r67 62r60 69r31 69r73
+. 72r34 80r31 82m30 95m30 165m32 167m35 201r53
+20i7*noControlRods{8I9} 35m27 58r33 58r91 59r34 59r70 63r33 63r91 64r34 64r70
+. 102r76 107r33 114r83 150r34 42|9r31 10m33 10r70 12r66 17r31 18m32 18r69
+. 20r66 81m80 93r31 101r35 113r81 135r54 163r65 174m27 199r72
+21i7*amountOfWater{9I9} 36m27 78r33 78r91 79r34 79r70 83r33 83r91 84r34 84r70
+. 103r34 107r76 115r37 150r76 42|42r31 43m32 43r69 45r56 51r31 52m32 52r69
+. 54r56 81m120 93r74 103r38 113r123 163r115 175m27 200r70
+22e7*currentReactorState{13E9} 37m27 94r33 108r34 114r33 116r34 120r33 126r37
+. 134r37 140r37 155r33 42|81m32 94m32 113r31 114m32 121r58 144r31 147r35
+. 180r30 197r55
+23i7*amountOfPower{10I9} 38m27 102r34 109r77 125r33 125r91 127r34 128r34
+. 42|84m30 97m30 136m27 148r63 202r72
+26R10*Trains 30e14 41r12
+27i7*noCarriages{11I9} 42m22 68r19 68r59 69r20 69r41 73r19 73r59 74r20 74r40
+. 42|26r17 27m18 27r39 29r46 34r17 35m18 35r39 37r46 148r100 194r47
+28i7*currentSpeed{12I9} 43m23 103r63 110r20 120r68 121r20 121r41 133r19 133r59
+. 135r20 135r61 42|26r45 81m147 98m16 121r17 122m18 122r40 146m16 150m24
+. 152m24 193r41
+29r7*trainReactors{17R9} 41m23 58r19 58r77 59r20 59r56 63r19 63r77 64r20
+. 64r56 78r19 78r77 79r20 79r56 83r19 83r77 84r20 84r56 88r19 88r68 89r16
+. 90r20 90r54 94r19 95r20 95r62 96r12 100r19 100r61 101r20 101r60 102r20
+. 102r62 103r20 107r19 107r62 108r20 108r70 109r20 109r63 114r19 114r69 115r23
+. 116r20 120r19 125r19 125r77 126r23 127r20 128r20 134r23 139r19 139r68 140r23
+. 141r20 141r70 150r20 150r62 155r19 42|9r17 10m19 10r56 12r52 17r17 18m18
+. 18r55 20r52 42r17 43m18 43r55 45r42 51r17 52m18 52r55 54r42 59r17 60m18
+. 60r53 62r46 69r17 69r59 70m18 72r20 73m21 80r17 81m18 81m66 81m106 82m16
+. 83m16 84m16 93r17 93r60 94m18 95m16 96m16 97m16 101r21 103r24 113r17 113r67
+. 113r109 114m18 121r44 135r40 136m13 144r17 147r21 148r49 163r51 163r101
+. 165m18 167m21 174m13 175m13 180r16 197r41 198r38 199r58 200r56 201r39 202r58
+33r5*reactor{17R9} 41r40
+41r4*train{26R10} 57r28 58r13 58r71 59r14 59r50 62r28 63r13 63r71 64r14 64r50
+. 67r28 68r13 68r53 69r14 69r35 72r28 73r13 73r53 74r14 74r34 77r28 78r13
+. 78r71 79r14 79r50 82r28 83r13 83r71 84r14 84r50 87r28 88r13 88r62 89r10
+. 90r14 90r48 93r28 94r13 95r14 95r56 96r6 99r28 100r13 100r55 101r14 101r54
+. 102r14 102r56 103r14 103r57 106r28 107r13 107r56 108r14 108r64 109r14 109r57
+. 110r14 113r28 114r13 114r63 115r17 116r14 119r28 120r13 120r62 121r14 121r35
+. 124r28 125r13 125r71 126r17 127r14 128r14 131r28 133r13 133r53 134r17 135r14
+. 135r55 138r28 139r13 139r62 140r17 141r14 141r64 146r53 149r28 150r14 150r56
+. 154r26 155r13 42|9r11 10m13 10r50 12r46 17r11 18m12 18r49 20r46 26r11 26r39
+. 27m12 27r33 29r40 34r11 35m12 35r33 37r40 42r11 43m12 43r49 45r36 51r11
+. 52m12 52r49 54r36 59r11 60m12 60r47 62r40 69r11 69r53 70m12 72r14 73m15
+. 80r11 81m12 81m60 81m100 81m141 82m10 83m10 84m10 93r11 93r54 94m12 95m10
+. 96m10 97m10 98m10 101r15 103r18 113r11 113r61 113r103 114m12 121r11 121r38
+. 122m12 122r34 135r34 136m7 144r11 146m10 147r15 148r43 148r94 150m18 152m18
+. 163r45 163r95 165m12 167m15 174m7 175m7 180r10 193r35 194r41 197r35 198r32
+. 199r52 200r50 201r33 202r52
+46b4*reactorShutDown{boolean} 106r35 144r53 42|99m10 204r10 207m11
+47b4*reactorNeedsControl{boolean} 106r73 144r70 42|102m17 208r18 211m13
+48b4*reactorNeedsCoolant{boolean} 106r52 144r91 42|105m16 212r21 215m16
+49b4*reactorEmer{boolean} 99r35 145r26 42|85m10 219r11 222m10
+50b4*reactorMaintenance{boolean} 145r71 153r28 42|181m12 234r11 239m13
+51b4*reactorNotOff{boolean} 145r91 153r48 42|183m10 240r19 243m18
+52b4*trainStart1{boolean} 119r35 145r39 42|123m10 224r11 227m10
+53b4*trainStart2{boolean} 106r94 119r48 132r26 42|100m10 124m10 144r60
+54b4*trainNeedsReactor{boolean} 119r61 145r52 42|126m10 228r18 231m13
+56U14*AddControlRod 42|7b14 13l8 13t21
+61U14*RemovingControlRod 42|15b14 21l8 21t26
+66U14*AddCarriage 42|24b14 30l8 30t19
+71U14*RemovingCarriage 42|32b14 38l8 38t24
+76U14*IncreaseCoolant 42|40b14 46l8 46t23
+81U14*DecreaseCoolant 42|49b14 55l8 55t23
+86U14*IncreaseTemp 42|57b14 63l8 63t20
+92U14*WarningLight 42|67b14 76l8 76t20
+98U14*EmergencyStop 42|78b14 87l8 87t21
+105U14*ManualShutDown 42|91b14 109l8 109t22
+112U14*StartUpTheReactor 42|111b14 116l8 116t25
+118U14*TrainStart 42|119b14 128l8 128t18
+123U14*CalculatePower 42|132b14 137l8 137t22
+130U14*CalculateSpeed 42|141b14 158l8 158t22
+137U14*CalculateTemperature 42|160b14 170l8 170t28
+143U14*DisplayAll 42|187b13 247l8 247t18
+148U14*Restart 42|172b13 176l8 176t15
+152U14*Maintenance 42|178b14 185l8 185t19
+X 42 trains.adb
+133i7 power{integer} 135m7 135r17 136r56
+142i7 speed{integer} 145m12 146r41 148m16 148r25 149r17 151r22 152r49
+161i7 temperature{integer} 163m7 163r22 164r11 166r16 167r55
+

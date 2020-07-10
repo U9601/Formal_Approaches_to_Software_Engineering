@@ -1,0 +1,7 @@
+20200508111910
+-c
+-x
+ada
+-gnatA
+-gnatc
+-gnates=D:\Uni Work\FASE\obj\gnatprove\85a74aac.tmp

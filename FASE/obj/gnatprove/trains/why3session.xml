@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE why3session PUBLIC "-//Why3//proof session v5//EN"
+"http://why3.lri.fr/why3session.dtd">
+<why3session shape_version="6">
+<prover id="0" name="CVC4" version="1.6-gnatprove" timelimit="1" steplimit="0" memlimit="1000"/>
+<prover id="1" name="CVC4_CE" version="1.6-gnatprove" timelimit="1" steplimit="0" memlimit="1000"/>
+<file>
+<path name=".."/>
+<path name="trains.mlw"/>
+<theory name="Trains__addcontrolrod__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="19"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="112"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="precondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="70"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__removingcontrolrod__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="19"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="112"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="precondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="70"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__addcarriage__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="125"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="59"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="297"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__removingcarriage__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="19"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="105"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="46"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__increasecoolant__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="19"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="112"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="precondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="70"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__decreasecoolant__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="19"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="112"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="precondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="70"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__increasetemp__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="34"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="19"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="104"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="112"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="precondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="70"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="232"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__warninglight__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="150"/></proof>
+  </goal>
+  <goal name="VC def.12" expl="precondition">
+  </goal>
+  <goal name="VC def.6" expl="precondition">
+  </goal>
+  <goal name="VC def.5" expl="precondition">
+  <proof prover="0"><result status="valid" steps="284"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="precondition">
+  <proof prover="0"><result status="valid" steps="124"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="precondition">
+  <proof prover="0"><result status="valid" steps="123"/></proof>
+  </goal>
+  <goal name="VC def.11" expl="precondition">
+  <proof prover="0"><result status="valid" steps="285"/></proof>
+  </goal>
+  <goal name="VC def.9" expl="precondition">
+  <proof prover="0"><result status="valid" steps="91"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__emergencystop__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="103"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.9" expl="postcondition">
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="postcondition">
+  </goal>
+  <goal name="VC def.12" expl="postcondition">
+  </goal>
+  <goal name="VC def.13" expl="postcondition">
+  </goal>
+  <goal name="VC def.14" expl="postcondition">
+  </goal>
+  <goal name="VC def.15" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="33"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="201"/></proof>
+  </goal>
+  <goal name="VC def.16" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="33"/></proof>
+  </goal>
+  <goal name="VC def.17" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="33"/></proof>
+  </goal>
+  <goal name="VC def.18" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="33"/></proof>
+  </goal>
+  <goal name="VC def.19" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="33"/></proof>
+  </goal>
+  <goal name="VC def.20" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="27"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__manualshutdown__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.9" expl="postcondition">
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="33"/></proof>
+  </goal>
+  <goal name="VC def.12" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="33"/></proof>
+  </goal>
+  <goal name="VC def.13" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="33"/></proof>
+  </goal>
+  <goal name="VC def.14" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="33"/></proof>
+  </goal>
+  <goal name="VC def.15" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="27"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__startupthereactor__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="32"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__trainstart__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="15"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="54"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__calculatepower__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="71"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="15"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="76"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.8" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__calculatespeed__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="71"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="144"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="75"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="173"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="59"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="163"/></proof>
+  </goal>
+  <goal name="VC def.9" expl="postcondition">
+  </goal>
+  <goal name="VC def.10" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="83"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="219"/></proof>
+  </goal>
+  <goal name="VC def.11" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="83"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="218"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__calculatetemperature__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="71"/></proof>
+  </goal>
+  <goal name="VC def.2" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="75"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="103"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="15"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="20"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  </goal>
+  <goal name="VC def.9" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="56"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="173"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="77"/></proof>
+  </goal>
+  <goal name="VC def.12" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="77"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__displayall__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="precondition">
+  </goal>
+  <goal name="VC def.2" expl="precondition">
+  </goal>
+  <goal name="VC def.3" expl="precondition">
+  </goal>
+  <goal name="VC def.4" expl="precondition">
+  </goal>
+  <goal name="VC def.5" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="111"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="131"/></proof>
+  </goal>
+  <goal name="VC def.7" expl="precondition">
+  </goal>
+  <goal name="VC def.8" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="150"/></proof>
+  </goal>
+  <goal name="VC def.9" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="231"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="precondition">
+  </goal>
+  <goal name="VC def.11" expl="precondition">
+  </goal>
+  <goal name="VC def.12" expl="precondition">
+  </goal>
+  <goal name="VC def.13" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="194"/></proof>
+  </goal>
+  <goal name="VC def.14" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="377"/></proof>
+  </goal>
+  <goal name="VC def.15" expl="precondition">
+  </goal>
+  <goal name="VC def.16" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="230"/></proof>
+  </goal>
+  <goal name="VC def.17" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="399"/></proof>
+  </goal>
+  <goal name="VC def.18" expl="precondition">
+  </goal>
+  <goal name="VC def.19" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="272"/></proof>
+  </goal>
+  <goal name="VC def.20" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="518"/></proof>
+  </goal>
+  <goal name="VC def.21" expl="precondition">
+  </goal>
+  <goal name="VC def.22" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="314"/></proof>
+  </goal>
+  <goal name="VC def.23" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="648"/></proof>
+  </goal>
+  <goal name="VC def.24" expl="precondition">
+  </goal>
+  <goal name="VC def.25" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="356"/></proof>
+  </goal>
+  <goal name="VC def.26" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="789"/></proof>
+  </goal>
+  <goal name="VC def.27" expl="precondition">
+  </goal>
+  <goal name="VC def.28" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="398"/></proof>
+  </goal>
+  <goal name="VC def.29" expl="precondition" proved="true">
+  <proof prover="0"><result status="valid" steps="941"/></proof>
+  </goal>
+  <goal name="VC def.30" expl="precondition">
+  </goal>
+  <goal name="VC def.31" expl="precondition">
+  </goal>
+  <goal name="VC def.32" expl="precondition">
+  </goal>
+  <goal name="VC def.33" expl="postcondition">
+  </goal>
+  <goal name="VC def.34" expl="precondition">
+  </goal>
+  <goal name="VC def.35" expl="postcondition">
+  </goal>
+  <goal name="VC def.36" expl="precondition">
+  </goal>
+  <goal name="VC def.37" expl="postcondition">
+  </goal>
+  <goal name="VC def.38" expl="precondition">
+  </goal>
+  <goal name="VC def.39" expl="postcondition">
+  </goal>
+  <goal name="VC def.40" expl="precondition">
+  </goal>
+  <goal name="VC def.41" expl="postcondition">
+  </goal>
+  <goal name="VC def.42" expl="precondition">
+  </goal>
+  <goal name="VC def.43" expl="postcondition">
+  </goal>
+  <goal name="VC def.44" expl="precondition">
+  </goal>
+  <goal name="VC def.45" expl="postcondition">
+  </goal>
+  <goal name="VC def.46" expl="precondition">
+  </goal>
+  <goal name="VC def.47" expl="postcondition">
+  </goal>
+  <goal name="VC def.48" expl="precondition">
+  </goal>
+  <goal name="VC def.49" expl="postcondition">
+  </goal>
+  <goal name="VC def.50" expl="precondition">
+  </goal>
+  <goal name="VC def.51" expl="postcondition">
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__restart__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.4" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.7" expl="postcondition" proved="true">
+  <proof prover="0"><result status="valid" steps="5"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__maintenance__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  <proof prover="0" obsolete="true"><result status="valid" steps="5"/></proof>
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  <proof prover="0"><result status="valid" steps="13"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__increasevelocity__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="precondition">
+  <proof prover="0"><result status="valid" steps="19"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="104"/></proof>
+  </goal>
+  <goal name="VC def.3" expl="precondition">
+  <proof prover="0"><result status="valid" steps="105"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="precondition">
+  </goal>
+  <goal name="VC def.5" expl="postcondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  <proof prover="0"><result status="valid" steps="27"/></proof>
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  <proof prover="0"><result status="valid" steps="27"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__decreasepower__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="precondition">
+  <proof prover="0"><result status="valid" steps="48"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="106"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="precondition">
+  <proof prover="0"><result status="valid" steps="134"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__addfuelrod__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="precondition">
+  <proof prover="0"><result status="valid" steps="48"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="precondition">
+  <proof prover="0"><result status="valid" steps="134"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="197"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.8" expl="precondition">
+  <proof prover="0"><result status="valid" steps="153"/></proof>
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  <proof prover="0" obsolete="true"><result status="unknown" steps="230"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="276"/></proof>
+  </goal>
+  <goal name="VC def.10" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="postcondition">
+  </goal>
+  <goal name="VC def.11" expl="postcondition">
+  <proof prover="0"><result status="unknown" steps="295"/></proof>
+  <proof prover="1"><result status="unknown" steps="375"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__increasepower__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="precondition">
+  <proof prover="0"><result status="valid" steps="48"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="106"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="precondition">
+  <proof prover="0"><result status="valid" steps="134"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__decreasevelocity__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="precondition">
+  <proof prover="0"><result status="valid" steps="49"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="104"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="precondition">
+  <proof prover="0"><result status="valid" steps="136"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.7" expl="postcondition">
+  <proof prover="0"><result status="valid" steps="90"/></proof>
+  <proof prover="1" obsolete="true"><result status="unknown" steps="229"/></proof>
+  </goal>
+  <goal name="VC def.8" expl="postcondition">
+  <proof prover="0"><result status="valid" steps="90"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__removingfuelrod__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="precondition">
+  <proof prover="0"><result status="valid" steps="48"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="precondition">
+  <proof prover="0"><result status="valid" steps="134"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+  <goal name="VC def.5" expl="precondition">
+  <proof prover="0"><result status="valid" steps="194"/></proof>
+  </goal>
+  <goal name="VC def.6" expl="precondition">
+  <proof prover="0"><result status="valid" steps="391"/></proof>
+  </goal>
+ </transf>
+ </goal>
+</theory>
+<theory name="Trains__decreasetemp__subprogram_def">
+ <goal name="VC def" expl="VC for def">
+ <transf name="split_goal_wp_conj" >
+  <goal name="VC def.0" expl="postcondition">
+  </goal>
+  <goal name="VC def.1" expl="postcondition">
+  </goal>
+  <goal name="VC def.2" expl="postcondition">
+  </goal>
+  <goal name="VC def.3" expl="precondition">
+  <proof prover="0"><result status="valid" steps="49"/></proof>
+  </goal>
+  <goal name="VC def.4" expl="precondition">
+  <proof prover="0"><result status="valid" steps="134"/></proof>
+  </goal>
+  <goal name="VC def.5" expl="precondition">
+  </goal>
+  <goal name="VC def.6" expl="postcondition">
+  </goal>
+ </transf>
+ </goal>
+</theory>
+</file>
+</why3session>
